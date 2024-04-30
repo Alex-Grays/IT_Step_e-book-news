@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #4aa2ff;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item.allocation .nav-link {
+  color: white !important;
+  font-size: 17px;
+  padding-top: 7px;
+}
+
+.nav-item.allocation .nav-link:hover {
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  color: #d8d8d8 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ececec !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav .nav-link .fa-solid {
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+
+header .fa-solid {
+  font-size: 1.5em;
+}
+
+/* Carrent-Date */
+
+.current-date {
+  text-align: center;
+}
+
+/* NEWS */
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+.card {
+  min-height: 400px;
+}
+@media (max-width: 991px) {
+  .col-md-12 hr {
+    margin-left: 85px;
+  }
+
+  .col-md-2 {
+    min-width: 135px;
+  }
+
+  .btn-width {
+    min-width: 190px;
+  }
+
+  .navbar-nav:first-child {
+    border-top: 2px solid #ccc;
+    margin-top: 8px;
+  }
+
+  .nav-item:hover {
+    background-color: #1687ff;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .fa-solid {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .col-md-12 {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .lesson-tab {
+    display: inline-block;
+  }
+}
